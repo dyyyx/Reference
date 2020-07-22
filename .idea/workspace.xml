@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62f7171a-450d-4576-aaa6-2bb0a8aab831" name="Default Changelist" comment="" />
+    <list default="true" id="62f7171a-450d-4576-aaa6-2bb0a8aab831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/CheckRefQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/CheckRefQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/soft/SoftRefTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/soft/SoftRefTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/weak/WeakRefTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReferenceTest/com/test/reference/weak/WeakRefTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/reference/soft/SoftRefTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/reference/soft/SoftRefTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/reference/strong/StrongRefTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/reference/strong/StrongRefTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ez4xgReSjVIHtfAhPHzqGTi30e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/vp_workspace/tip-service" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -38,11 +49,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeakRefTest">
+  <component name="RunManager" selected="Application.StrongRefTest">
     <configuration name="SoftRefTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.reference.soft.SoftRefTest" />
       <module name="ReferenceTest" />
-      <option name="VM_PARAMETERS" value="-Xmx5M" />
+      <option name="VM_PARAMETERS" value="-Xmx5M -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.reference.*" />
@@ -88,9 +99,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeakRefTest" />
-        <item itemvalue="Application.SoftRefTest" />
         <item itemvalue="Application.StrongRefTest" />
+        <item itemvalue="Application.SoftRefTest" />
+        <item itemvalue="Application.WeakRefTest" />
       </list>
     </recent_temporary>
   </component>
@@ -107,22 +118,26 @@
       <workItem from="1595311338286" duration="1485000" />
       <workItem from="1595312864161" duration="299000" />
       <workItem from="1595313192307" duration="6473000" />
-      <workItem from="1595322975239" duration="1969000" />
+      <workItem from="1595322975239" duration="2709000" />
+      <workItem from="1595328293128" duration="1470000" />
+      <workItem from="1595380620939" duration="3397000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/test/reference/soft/SoftRefTest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

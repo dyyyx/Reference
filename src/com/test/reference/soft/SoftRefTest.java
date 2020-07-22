@@ -14,6 +14,9 @@ public class SoftRefTest {
 
     private static ReferenceQueue<MyObject> softQueue = new ReferenceQueue<>();
     public static void main(String[] args) {
+
+//        SoftReference<MyObject> reference = new SoftReference<>(new MyObject(0));
+
         MyObject myObject = new MyObject(1);
         SoftReference<MyObject> softReference = new SoftReference<>(myObject, softQueue);
         System.out.println("创建的软引用为：" + softReference);
@@ -24,7 +27,7 @@ public class SoftRefTest {
         System.gc();
         System.out.println("After GC soft Ref :" + softReference.get());
         System.out.println("分配大块内存");
-        byte[] b = new byte[5 * 1024 * 695];
+        byte[] b = new byte[5 * 1024 * 694];
         System.out.println("After new byte[] Soft Ref :" + softReference.get());
         System.gc();
     }
